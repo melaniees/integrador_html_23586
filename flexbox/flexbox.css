@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-color: black;
+}
+.padre{
+   
+    padding: 20px;
+    display: flex;/*contenedor flexible*/
+    /*valorespor defecto*/
+    flex-direction: row;/*padre se convierte en fila*/
+    flex-wrap: wrap;/*no salten de linea,el contenedor contiene siempre todos los hijos*/
+    justify-content: flex-start;/*arranca de izq*/
+    align-items: stretch;
+    /*fin valores x defecto*/
+
+    flex-direction: row;
+    /*align-items: center;/*solo ocupa ancho de su contenido, centrado eje X*/
+  /*  justify-content: center;/*justifica en eje Y E*/
+
+    /*flex-wrap: wrap;
+    align-content: center;/* cuando es wrap,solo actua cuando hay desbordamiento,queda todo centrado*/
+  /*  justify-content: flex-end;/*arranque de la izquierda*/
+    /*justify-content: space-evenly;/*tengo la misma distancia entre los elementos*/
+    /*justify-content: space-between;/*arranca pegado a los margenes*/
+   /* justify-content: space-around;/*los hermanos suman los margenes, entre hnos hay el doble de margen*/
+    justify-content: center;
+    align-items: center;
+    
+
+   /*- align-items:center;/*no actua si esta align-content-center(prioriza esta),
+    baseline: arranca pegado arriba,end:arranca pegado abajo del contenedor,center:justificado*/
+    gap: 20px;/*me da espacio entre filas y columnas*/
+    
+}
+.hijo{
+    background-color: white;
+   
+    font-size: 2rem;
+    /*text-align: center;*/
+    height: 400px;
+    width: 350px;
+    
+    /*para q la img quede centrada*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+} 
+
+.hijo img{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;/*que se estire ocupando el espacio del contenedor sin deformarse*/
+}

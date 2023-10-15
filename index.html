@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador front | Melanie Escobar</title>
+    <!--link icono-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedorLogoNav">
+            <a href="#">
+                <img src="./assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0">
+            </a>
+            
+            <h2>Conf. Bs.As.</h2>
+            <!--navegación-->
+            <nav>
+                <ul>
+                    <li class="listaItem"><a href="#conferencia" class="colorWhite linkNav">La conferencia</a></li>
+                    <li class="listaItem"><a href="#oradores" class="colorGris linkNav">Los oradores</a></li>
+                    <li class="listaItem"><a href="#lugarFecha" class="colorGris linkNav">El lugar y la fecha</a></li>
+                    <li class="listaItem"><a href="#formularioOrador" class="colorGris linkNav">Conviértete en orador</a></li>
+                    <li class="listaItem"><a href="./pages/comprar_tickets.html" class="colorVerde linkNav">Comprar tickets</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <section id="conferencia">
+            <h1>Conferencia Buenos Aires</h1>
+            <p>Bs As llega por primera veza Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Van a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+            </p>
+            <a href="">Quiero ser orador</a>
+            <a href="">Comprar tickets</a>
+        </section>
+
+    </header>
+    <main>
+        <section id="oradores">
+            <h2><div>CONOCE A LOS</div>ORADORES</h2>
+        
+            <div>
+                <img src="./assets/img/steve.jpg" alt="Steve Jobs" loading="lazy">
+                <h4>JavaScript</h4>
+                <h4>React</h4>
+                <h3>Steve Jobs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quas dolorum voluptates dicta similique aspernatur praesentium, nemo reiciendis fugiat ipsum ad, quia nisi ut nobis neque velit, aut quod vitae.</p>
+
+            </div>
+
+            <div>
+                <img src="./assets/img/bill.jpg" alt="Bill Gates" loading="lazy">
+                <h4>JavaScript</h4>
+                <h4>React</h4>
+                <h3>Bill Gates</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo quasi, delectus error dolorum sed reprehenderit laboriosam impedit, sunt facilis consectetur maxime rerum facere dolores! Voluptatibus dolor perspiciatis at libero.</p>
+
+            </div>
+
+            <div>
+                <img src="./assets/img/ada.jpeg" alt="Ada Lovelace" loading="lazy">
+                <h4>Negocios</h4>
+                <h4>Startups</h4>
+                <h3>Ada Lovelace</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex doloremque magnam sint, ratione odio distinctio soluta molestiae sed hic voluptates quis tempora incidunt quibusdam dolore vel. Quae, a! Repudiandae.</p>
+
+            </div>
+        </section>
+
+        <section id="lugarFecha">
+            <div>
+                <img src="./assets/img/honolulu.jpg" alt="Mar del Plata" loading="lazy">
+
+            </div>
+            <div class="bsasOctubre colorWhite" >
+                <h2 >Bs As - Octubre</h2>
+                <p >Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unudos. Honolulu es la más sureña de entre los principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honululu han formado una ciudad-condado consolidada que cubre toda la ciudad(aproximadamente 600km2 de superficie).</p>
+
+                <a href="" class="colorWhite">Conocé más</a>
+            </div>
+            
+
+        </section>
+                    
+        <section id="formularioOrador">
+            <h2><div>CONVIÉRTETE EN UN</div>ORADOR</h2>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
+
+            <form action="">
+                <div>
+                    <input type="text" id="name" name="nombre" placeholder="Nombre" required>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                </div>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su Email" required>
+                </div>
+                <div>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="contraseña" required>
+                </div>
+                <div>
+                    <textarea name="comentario" id="comentario" cols="60" rows="5" placeholder="Sobre qué quieres hablar"></textarea>
+                    <p>Recuerda incluir un título para tu charla</p>
+                </div>
+        
+                <div >
+                    
+                    <!--
+                    <input type="reset" value="Limpiar formulario">
+                    -->
+                    <input class="botonEnviar" type="submit" value="Enviar formulario">
+                </div>
+            </form>
+
+            
+           
+
+
+        </section>
+
+    </main>
+
+     <!--Se va a colocar un mapa
+     <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.546490589282!2d-58.3950125!3d-34.6007066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabfe23f5e3b%3A0x6f90fe1eadb235cf!2sMuseo%20del%20Agua%20y%20de%20la%20Historia%20Sanitaria!5e0!3m2!1ses-419!2sar!4v1693588782215!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    -->
+   <!--
+    <aside>
+        <p>publicidad</p>
+        <iframe width="300" height="315" src="https://www.youtube.com/embed/ptXiQwE535s?si=7kzehfHCPRat3hSy&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300" height="315" src="https://www.youtube.com/embed/SIotISUq-3w?si=4z5y_6vMC22Fznx9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        <iframe width="300" height="315" src="https://www.youtube.com/embed/W-z0iTXEarw?si=LSXUnwUc2zAemMwv&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </aside>
+   -->
+   
+
+    <footer class="footer"> <!--es necesario que sea nav?-->
+        <nav>
+            <ul>
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">Contáctanos</a></li>
+                <li><a href="">Prensa</a></li>
+                <li><a href="">Conferencias</a></li>
+                <li><a href="">Terminos y condiciones</a></li>
+                <li><a href="">Privacidad</a></li>
+                <li><a href="">Estudiantes</a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank">Wsap</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>

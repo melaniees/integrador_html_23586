@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.padre{
+    /*height: 50vh;/*para que ocupe el 50% de la ventana*/
+    background-color: pink;
+    /*contenedor flexible, habilita un grupo de propiedades por defecto
+    direccion del contenedor: si es fila o columna-> flex-direction:row;
+    alineación en el eje principal del contenedor-> justify-content:flex,start
+    alineación en el eje secundario del contenedor-> align-items:center;por defecto align-items:strech;
+    flex-wrap: nowrap -> permite que los elementos se ajusten al contenedor*/
+    display: flex;
+    /*valores por defecto
+    flex-direction: row;/*que sea una fila(eje x)/ si es columna:column(eje y)
+    justify-content: flex-start;/*que comience desde la izq
+    align-items: stretch;/*como no tienen un ancho y alto definido , le digo a los hijos q se estrechen en el eje contrario(eje y) al ppal, si es column (eje x)
+    flex-wrap: nowrap;
+    fin valores por defecto*/
+
+    /*distintos valores de direccion
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    */
+    justify-content: space-around;/*center:centro todo, 
+    space-between:espacio igual entre ellos, los extremos pegados en el borde
+    space-evenly:espacio igual entre todos, 
+    space-around:hay espacio entre todos iguales pero se suman salvo en los extremos*/
+    flex-wrap: wrap;/*si no entran en el contenedor q no se aplasten, se van para abajo*/
+    align-items: center;
+    .hijo{
+        background-color: azure;
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+    }
+}

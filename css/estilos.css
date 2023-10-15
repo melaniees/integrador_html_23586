@@ -1,0 +1,53 @@
+/*Reseteo de valores que hay por defecto*/
+header .listaItem{
+    list-style: none;
+    display: inline;
+}
+.linkNav{
+    text-decoration: none;
+}
+.contenedorLogoNav{
+    background-color: rgb(53,58,64);
+    font-size: 1.5rem;
+    color: white;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.colorGris{
+    color: gray;
+}
+    
+.colorVerde{
+    color:green;
+} 
+
+.footer{
+    background-image: linear-gradient(to right, #1c3846, #1c3f51, #1c455b, #1d4c67, #1e5372);
+} 
+
+footer a{
+    color:white;
+} 
+
+footer nav ul li{
+    list-style: none;
+    display: inline;
+} 
+
+footer nav ul li a{
+    text-decoration: none;
+    
+}
+
+.botonEnviar{
+    background-color: rgb(150, 201, 62);
+    
+} 
+
+
+.bsasOctubre{
+    background-color: rgb(53, 58, 64);
+}
